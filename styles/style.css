@@ -4,7 +4,6 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-  opacity: 1;
   background: rgb(0, 0, 0, 0.6);
 }
 
@@ -58,7 +57,7 @@
   z-index: 0;
   padding: 165px 50px 51px;
   color: #fff;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-position: 50%;
   background-size: cover;
 }
@@ -186,7 +185,7 @@
 .lots-card-one {
   position: relative;
   z-index: 0;
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   background-position: 50%;
   background-size: cover;
 }
@@ -194,7 +193,7 @@
 .lots-card-two {
   position: relative;
   z-index: 0;
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   background-position: 50%;
   background-size: cover;
 }
@@ -202,7 +201,7 @@
 .lots-card-third {
   position: relative;
   z-index: 0;
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   background-position: 50%;
   background-size: cover;
 }
