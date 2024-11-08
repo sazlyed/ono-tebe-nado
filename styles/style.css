@@ -14,7 +14,7 @@
   grid-template-columns: 1fr 148px 1fr;
   align-items: center;
   height: 105px;
-  margin: 92px 24px 96px;
+  margin: 0 24px 96px;
   font-size: 18px;
 }
 
@@ -359,7 +359,7 @@
   display: flex;
   justify-content: space-between;
   height: 98px;
-  margin: 180px 50px 88px;
+  margin: 180px 50px 0;
   border: #000;
   font-size: 18px;
 }
