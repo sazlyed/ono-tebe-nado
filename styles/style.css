@@ -316,23 +316,7 @@
 }
 
 .letter-spacing-about-first-p-four {
-  letter-spacing: 0;
-}
-
-.letter-spacing-about-first-p-five {
   letter-spacing: 0.03em;
-}
-
-.letter-spacing-about-first-p-six {
-  letter-spacing: -0.005em;
-}
-
-.letter-spacing-about-first-p-seven {
-  letter-spacing: 0.02em;
-}
-
-.letter-spacing-about-first-p-eith {
-  letter-spacing: 0.006em;
 }
 
 /* letter-spacing second paragraph */
@@ -342,14 +326,6 @@
 }
 
 .letter-spacing-about-second-p-second {
-  letter-spacing: 0.015em;
-}
-
-.letter-spacing-about-second-p-third {
-  letter-spacing: 0.02em;
-}
-
-.letter-spacing-about-second-p-four {
   letter-spacing: 0.01em;
 }
 
