@@ -70,12 +70,15 @@
   text-transform: uppercase;
 }
 
+.aligned-text {
+  display: block;
+  letter-spacing: 0.30em;
+}
+
 /* ОНО letter-spacing */
 
 .letter-spacing-extended-first {
-  display: block;
   line-height: 115px;
-  letter-spacing: 0.30em;
 }
 
 
@@ -85,10 +88,8 @@
 
 /* ТЕБЕ letter-spacing */
 
-.letter-spacing-extended-second {
-  display: block;
+.aligned-text_center {
   line-height: 140px;
-  letter-spacing: 0.30em;
   text-align: center;
 }
 
@@ -98,8 +99,7 @@
 
 /* НАДО letter-spacing */
 
-.letter-spacing-extended-third {
-  display: block;
+.aligned-text_right {
   line-height: 100px;
   letter-spacing: 0.60em;
   text-align: right;
@@ -380,7 +380,7 @@
   text-underline-offset: 5px;
 }
 
-.footer-media-navigation-links {
+.footer__social-list-item {
   display: flex;
   justify-content: space-between;
   width: 240px;
