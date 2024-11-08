@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body>
+  <body id="body">
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
@@ -21,10 +21,10 @@
             >
           </li>
           <li class="header__links-list-item header__links-list-lots">
-            <a class="header__link" href="#0">посмотреть лоты</a>
+            <a class="header__link" href="#about">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item header__links-list-auction">
-            <a class="header__link" href="#0">об аукционе</a>
+            <a class="header__link" href="#lots">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -43,7 +43,7 @@
             <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           </li>
           <li class="aside-address-list aside-address-list-addr">
-            <a href="https://yandex.ru/maps/-/CDhDfTyS" target="_blank"
+            <a href="#0"
               >наб. Принсенграхт 263- 265, Амстердам</a
             >
           </li>
@@ -85,7 +85,7 @@
           <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
-      <section class="lots">
+      <section class="lots" id="lots">
         <h2 class="lots__title">Лоты</h2>
         <article>
           <ul class="lots__card-list">
@@ -140,7 +140,7 @@
           <a class="lots-look-more-link" href="#0">посмотреть больше</a>
         </article>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="about-background-logo-white">
           <img
             class="about-logo-image"
@@ -158,10 +158,22 @@
             <span class="letter-spacing-about-first-p-second">Наши</span> лоты
             вообще не должны
             <span class="letter-spacing-about-first-p-third">были попасть</span>
-            ни на один аукцион. Потому что кому нужен
-            <span class="letter-spacing-about-first-p-four">дневник</span>
-            девочки-подростка или картина, которую может нарисовать даже
-            ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+            ни на<span class="letter-spacing-about-first-p-four">
+              один аукцион. Потому что кому нужен</span
+            >
+            <span class="letter-spacing-about-first-p-five">дневник</span>
+            девочки-подростка
+            <span class="letter-spacing-about-first-p-six"
+              >или картина, которую может</span
+            >
+            <span class="letter-spacing-about-first-p-seven"
+              >нарисовать даже</span
+            >
+            ребёнок? Кому
+            <span class="letter-spacing-about-first-p-eith"
+              >нужны все эти странные вещи, созданные</span
+            >
+            любителями?
           </p>
           <p class="about-paragraphs-second">
             Слишком сложные или, наоборот, слишком простые. Опережающие своё
@@ -173,9 +185,13 @@
               >неудачными.</span
             >
             Но, несмотря на критику, кажущуюся простоту или сложность, сейчас
-            без этих лотов невозможно представить современную культуру. Когда в
-            эти вещи не верил никто, продолжали верить их создатели. И сейчас
-            эти лоты стали культовыми.
+            без этих лотов невозможно представить
+            <span class="letter-spacing-about-second-p-second"
+              >современную культуру.</span
+            >
+            Когда в эти вещи не верил никто, продолжали верить их
+            <span class="letter-spacing-about-second-p-four">создатели.</span> И
+            сейчас эти лоты стали культовыми.
           </p>
         </div>
       </section>
@@ -195,7 +211,7 @@
               >
             </li>
             <li class="aside-address-list aside-address-list-addr">
-              <a href="https://yandex.ru/maps/-/CDhDfTyS" target="_blank"
+              <a href="#0"
                 >наб. Принсенграхт 263- 265, Амстердам</a
               >
             </li>
@@ -204,13 +220,13 @@
         <nav class="footer__menu">
           <ul class="footer__links-list">
             <li class="footer__links-list-item footer__links-list-main">
-              <a class="footer__link" href="#0">главная</a>
+              <a class="footer__link" href="#body">главная</a>
             </li>
             <li class="footer__links-list-item footer__links-list-lots">
-              <a class="footer__link" href="#0">посмотреть лоты</a>
+              <a class="footer__link" href="#lots">посмотреть лоты</a>
             </li>
             <li class="footer__links-list-item footer__links-list-auction">
-              <a class="footer__link" href="#0">об аукционе</a>
+              <a class="footer__link" href="#about">об аукционе</a>
             </li>
           </ul>
         </nav>
