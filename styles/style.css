@@ -188,6 +188,10 @@
   background-size: cover;
 }
 
+.lots-card-link {
+  text-decoration: none;
+}
+
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
