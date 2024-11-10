@@ -22,6 +22,11 @@
   letter-spacing: 0;
 }
 
+.address__link {
+  text-decoration: underline 1px;
+  text-underline-offset: 4px;
+}
+
 /* HEADER */
 
 .header {
@@ -32,9 +37,13 @@
   font-size: 18px;
 }
 
-.header__link:not(.header__link_active) {
+.header__link {
   text-decoration: underline 1px;
   text-underline-offset: 4px;
+}
+
+.header__link_active {
+  text-decoration: none;
 }
 
 .header__links-list {
@@ -311,11 +320,6 @@
   font-size: 18px;
 }
 
-.footer__link:not(.footer__link_active) {
-  text-decoration: underline 1px;
-  text-underline-offset: 4px;
-}
-
 .footer__menu {
   text-align: center;
 }
@@ -324,6 +328,15 @@
   display: flex;
   justify-content: space-between;
   min-width: 240px;
+}
+
+.footer__menu-link {
+  text-decoration: underline 1px;
+  text-underline-offset: 4px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
 }
 
 .footer-img {
